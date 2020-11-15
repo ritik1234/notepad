@@ -82,6 +82,6 @@ file = None
 text = Text(frame, width = 655, height = 343, font = f"{fnt.get()} 15", bg = "grey24", fg = "aliceblue", yscrollcommand = scrollbar1.set)
 text.pack(fill = BOTH)
 scrollbar1.config(command = text.yview)
-l1 = Label(root, text = f"    python GUI       UTF- 8", padx = 20, bg = "grey20", fg = "white", bd = 2, anchor = "e").pack(side = BOTTOM, fill = X)
+lbl1 = Label(root, text = f"    python GUI       UTF- 8", padx = 20, bg = "grey20", fg = "white", bd = 2, anchor = "e").pack(side = BOTTOM, fill = X)
 frame.pack(fill = "both")
 root.mainloop()
